@@ -1,14 +1,11 @@
-import Image from "next/image";
-import logo from "../utils/assets/images/logo-shopi.svg";
-
-const Home = () => {
+import * as React from "react";
+import Home from "./(pages)/(website)/(home)/Home"
+const Page = () => {
   return (
     <>
-    <div>
-      <Image src={logo} width={200} height={200} alt="logo" />
-    </div>
+    <Home />
     </>
   );
 }
 
-export default Home;
+export default Page;
