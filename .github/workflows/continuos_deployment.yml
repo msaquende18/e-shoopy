@@ -10,8 +10,8 @@ env:
     # These secrets key must be created on github repository 
         #Go to your github repository - Go to Settings - Select Actions secrets - Create  
 
-    VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }} #Get to your vercel dashboard the go to settings and Copy Team Id 
-    VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}  #Go to your vercel dashboard select project Go to Settings and copy the ID
+    VERCEL_ORG_ID: ${{ secrets.team_2M8xOo5puTSGSj7FKH7lVibE }} #Get to your vercel dashboard the go to settings and Copy Team Id 
+    VERCEL_PROJECT_ID: ${{ secrets.prj_K6LgDqAYg3eJ10YpMdIXH38B7BcK }}  #Go to your vercel dashboard select project Go to Settings and copy the ID
     VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }} #find token: Go to your vrecel dashboard - clik on user profil - go to account settings - choose settings on top corner left - scroll down create new Token - created a secret on github 
     
 jobs:
