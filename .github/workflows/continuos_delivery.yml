@@ -11,7 +11,7 @@ env:
         #Go to your github repository - Go to Settings - Select Actions secrets - Create  
 
     REGISTRY: ghcr.io #github container repository  
-    IMAGE_NAME: ${{ github.actor }}/shopi_ecommerce_docker_image:latest
+    IMAGE_NAME: ${{ github.actor }}/e-shoopy_docker_image:latest
 
 jobs:
     Deploy:

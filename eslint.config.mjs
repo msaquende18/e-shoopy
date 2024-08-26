@@ -25,6 +25,10 @@ export default [
   {
     ignores: [
       ".next/*",
+      "__tests__/*",
+      "cypress/*",
+      "node_modules/*",
+      "hooks/*",
     ],
   },
 ];
